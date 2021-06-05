@@ -2,7 +2,7 @@
 
 ## Links and Resources:
 
-- [Lab 1 Pull Request]()
+- [Lab 1 Pull Request](https://github.com/daveeS987/snakes-cafe/pull/1)
 
 ## Overview
 
