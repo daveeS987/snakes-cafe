@@ -17,44 +17,48 @@ Build a command line utility which will mimic the functionality of a point of sa
 - The program should tell the user how to exit
 - The program’s content should match included sample exactly
 
-```
+```bash
 $ python snakes_cafe.py
-**************************************
-**    Welcome to the Snakes Cafe!   **
-**    Please see our menu below.    **
-**
-** To quit at any time, type "quit" **
-**************************************
 
-Appetizers
-----------
+---
+
+**   Welcome to the Snakes Cafe!    **
+**   Please see our menu below.     **
+**                                  **
+** To quit at any time, type "quit" **
+
+---
+
+## Appetizers
+
 Wings
 Cookies
 Spring Rolls
 
-Entrees
--------
+## Entrees
+
 Salmon
 Steak
 Meat Tornado
 A Literal Garden
 
-Desserts
---------
+## Desserts
+
 Ice Cream
 Cake
 Pie
 
-Drinks
-------
+## Drinks
+
 Coffee
 Tea
 Unicorn Tears
 
-***********************************
+---
+
 ** What would you like to order? **
-***********************************
+
+---
+
 >
-
 ```
-
