@@ -9,22 +9,6 @@ def get_summary(obj):
     return result
 
 
-def output_response(response: str) -> str:
-    if response in menu_items:
-        menu_items[response] += 1
-        summary = get_summary(menu_items)
-        return f"""
-**{menu_items[response]} order of {response} have been added to your meal**
-
-*-----------------------------  Summary  -----------------------------*
-{summary}
-      """
-    elif response == "quit":
-        return "Thank you come again"
-    else:
-        return f"Please select an item from the list. Check your spelling"
-
-
 if __name__ == "__main__":
 
     menu_items = {
@@ -42,6 +26,22 @@ if __name__ == "__main__":
         "Tea": 0,
         "Unicorn Tears": 0,
     }
+
+    def output_response(response: str) -> str:
+        if response in menu_items:
+            menu_items[response] += 1
+            return f"**{menu_items[response]} order of {response} have been added to your meal**"
+        elif response == "summary":
+            summary = get_summary(menu_items)
+            return f"""
+*-----------------------------  Summary  -----------------------------*
+{summary}
+      """
+
+        elif response == "quit":
+            return "Thank you come again"
+        else:
+            return f"Please select an item from the list. Check your spelling"
 
     print_menu()
 

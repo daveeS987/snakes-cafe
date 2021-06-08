@@ -5,6 +5,7 @@ def print_menu():
 **    Welcome to the Snakes Cafe!   **
 **    Please see our menu below.    **
 **                                  **
+** To get summary, type "summary"   **
 ** To quit at any time, type "quit" **
 **************************************
 
