@@ -34,7 +34,7 @@ if __name__ == "__main__":
         elif response == "summary":
             summary = get_summary(menu_items)
             return f"""
-*-----------------------------  Summary  -----------------------------*
+*-----------------------------  Summary  -----------------------------*\n
 {summary}
       """
 
