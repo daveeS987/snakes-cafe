@@ -17,7 +17,7 @@ Build a command line utility which will mimic the functionality of a point of sa
 - The program should tell the user how to exit
 - The program’s content should match included sample exactly
 
-```bash
+```
 $ python snakes_cafe.py
 
 ---
